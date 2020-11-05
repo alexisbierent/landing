@@ -1,0 +1,16 @@
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.banner h1 {
+    color: white;
+}
+
+.banner p {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
