@@ -1,27 +1,136 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
-
-/* Fontawesome */
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 @import url("components/container.css");
-@import url("components/banner.css");
-@import url("components/btn.css");
-@import url("components/cards.css");
-@import url("components/footer.css");
+@import url("components/card.css");
 
-/* Utilities */
-body {
-  margin: 0;
-  font-family: Open Sans;
+.images {
+  width: 200px;
 }
 
-h1, h2, h3, h4 {
-  font-family: Poppins;
+.navbar{
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #fff;
+    padding: 10px 12px;
+    margin-bottom: 25px;
+}
+h2 {
+  color:#343B3F;
 }
 
-a {
-  text-decoration: none;
+.text {
+  text-justify: auto;
 }
 
-/* Custom design below! */
+.navbar img {
+  height: 50px;
+}
+
+.bureau {
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.avatar-large {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.informations {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding:5px;
+  border-bottom: 1px solid #adb3b5;
+}
+
+.description {
+  margin-top: 15px;
+  border-bottom: 1px solid #adb3b5;
+}
+
+.localisation {
+  color:#adb3b5;
+}
+
+.infos-text {
+  display: flex;
+}
+
+.motivation {
+  margin-top:15px;
+}
+
+#color-text {
+  color:#858E96;
+}
+
+.presentation {
+  font-family: helvetica;
+}
+
+.color-text {
+  color: #858E96;
+}
+
+.icon {
+  margin-right: : 5px;
+}
+
+.motivation {
+  margin-top: 15px;
+  border-bottom: 1px solid #adb3b5;
+}
+
+.equipement {
+  border-top: 1px solid #adb3b5;
+  padding:10px;
+}
+
+.flex {
+  display:flex;
+}
+
+.notes-globales {
+  margin-top: 15px;
+  border-top: 1px solid #adb3b5;
+  border-bottom: 1px solid #adb3b5;
+  padding: 10px;
+}
+.fa-star{
+  color:#adb3b5;
+}
+.fa-star.checked {
+  color:#49AC98;
+}
+
+.commantaires {
+  margin-top: 15px;
+  padding:10px;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fas {
+  margin-right: 15px;
+}
+
+.far {
+  margin-right: 15px;
+}
+
+.espace {
+  margin-right: 8px;
+}
+
+.margin.left {
+  margin-left:10px;
+}
 

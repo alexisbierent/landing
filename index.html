@@ -1,56 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My landing page</title>
-  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <!-- We need this line below for responsiveness! -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lettre de motivation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/bea929d051.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- code a Hero / Banner section -->
-  <div class="banner">
-    <div class="container">
-    <h1>The coronavirus</h1>
-    <p>Not the best period for everyone</p>
-    <a href="#" class="btn">Learn more</a>
+  <div class="container">
+    <nav class="navbar navbar-light bg-light" mb-3>
+      <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="">
+      </a>
+    </nav>
+    <div>
+      <img class="bureau" src="images/bureau.png" alt="">
+    </div>
+    <div class="informations">
+      <div class="presentation">
+        <p class="localisation">Localisation du candidat à Lille</p>
+        <h1>ALEXIS BIERENT</h1>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p>Candidature pour le poste de Product Owner</p>
+        <p class="color-text">Diplomé ICAM - Formé au Wagon</p>
+      </div>
+        <img src="images/alexis.jpg" class="avatar-large">
+    </div>
+    <div class=description >
+      <div class="flex" >
+        <i class="fas fa-anchor"></i>
+          <p><strong>Avec capitaine </strong></p>
+      </div>
+        <p>Ce candidat est fiable et autonome, il sera vous mener à bon port</p>
+        <p><i class="fas fa-trophy"></i><strong>Alexis est un super candidat </strong></p>
+        <p>Les super candidats sont des profils experimentés qui bénéficient de très bonnes évaluations et s’engage à vous donner pleine satisfaction</p>
+        <p><i class="fas fa-file-signature"></i><strong>Politique d’annulation </strong></p>
+        <p>Le candidat a décidé de ne pas répondre à cette condition. Vous n’aurez pas besoin d’annuler. </p>
+    </div>
+    <div class="motivation">
+      <h2>Description du candidat Alexis</h2>
+      <p>Product Owner en CDI</p>
+      <p class="text">Ma formation d’ingénieur en alternance m’a apporté rigueur et organisation dans mon travail.
+      Mon apprentissage m’a, lui, permis de mieux comprendre le monde de l’entreprise et les attentes de celui-ci envers un jeune salarié.
+      En effet, un jeune salarié se doit d’être ambitieux, dynamique et organisé.
+      La formation du Wagon me permet elle de mieux comprendre les enjeux techniques des produits web.
+      Aujourd’hui, mon projet professionnel est bien défini. Je souhaite occuper un poste de Product Owner</p>
+    </div>
+    <div class="card-product">
+      <img src="images/card.png" />
+      <div class="card-product-infos">
+        <h2>Faites moi confiance !</h2>
+        <h4>Mes reférences :</h4>
+        <p>ABB-Arnold Delannoy <strong> arnold.delannoy@fr.abb.com</strong></p>
+        <p>Wagon-François-Xavier Abaraham <strong>fx@lewagon.org</strong></p>
+        <p id="reference">Demander à les contacter</p>
+      </div>
+    </div>
+    <div class="equipement">
+      <h2>Equipements du candidat</h2>
+        <div class="row">
+          <div class="col-sm">
+            <div class="flex">
+              <i class="fas fa-file-code"></i>
+              <p>Languages informatiques (Rails,Ruby,CSS,HTML,JS)</p>
+            </div>
+            <div class="flex">
+              <i class="fas fa-globe-americas"></i>
+              <p>Maitrise de l'anglais</p>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="flex">
+              <i class="far fa-clipboard"></i>
+              <p>Chef de projet</p>
+            </div>
+            <div class="flex">
+              <i class="fas fa-running"></i>
+              <p>Sportif</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="notes-globales">
+      <h2>Notes globales</h2>
+      <div class="row">
+        <div class="col-sm">
+          <div class="flex-space">
+            <p class="espace">Organisation</p>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <div class="flex-space">
+            <p class="espace">Rigueur</p>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+      <div class="col-sm">
+        <div class="flex-space">
+          <p class="espace">Esprit d'équipe</p>
+          <div class="stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+        </div>
+        <div class="flex-space">
+          <p class="espace">Curiosite</p>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="commantaires">
+      <h2>1 Commentaire</h2>
+      <div class="flex-space">
+      <p><strong>Arnold Delannoy-ABB</strong></p>
+       <div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        </div>
+      </div>
+      <p class="text">Durant les 3 années d'apprentissage, Alexis a fait preuve d’une remarquable compétence, efficace et autonome, il n’a pas manqué pas de prendre des initiatives.
+      Disponible et réactif, il a permis au service d’atteindre les objectifs posés. Je suis persuadé qu’il sera également un excellent élément pour votre société</p>
+
     </div>
   </div>
-  <!-- code a "How it works" section -->
-   <div class="container">
-    <h1 class="text-center">How it impacts your body</h1>
-    <div class="cards">
-      <div class="card">
-        <img src="images/test-pcr.jpg" alt="test-pcr">
-        <h4>The test</h4>
-        <p>Learn the length of a cotton swabs</p>
-      </div>
-      <div class="card">
-        <img src="images/perte_gout.jpg" alt="perte_gout">
-        <h4>The symptoms</h4>
-        <p>  you can’t smell something </p>
-      </div>
-      <div class="card">
-        <img src="images/confinement.png" alt="confinement.png">
-        <h4>The solution</h4>
-        <p>Stay inside, that’s the only solution we found</p>
-      </div>
-    </div>
-  </div>
-  <!-- code a footer -->
-  <div class="footer">
-    <div class="link">
-      <a href="#">
-        <i class="fab fa-fw fa-facebook-f"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-fw fa-twitter"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-fw fa-instagram"></i>
-      </a>
-    <p>This website was coded with <i class="fas fa-heart"></i> at le wagon</p>
-  </div>
+
 </body>
 </html>
