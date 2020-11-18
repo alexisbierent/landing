@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    position: fixed;
+    /*position: fixed;*/
     z-index: 9;
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@
     height: 64px;
     background-color: #fff;
     padding: 10px 12px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 h2 {
   color:#343B3F;
@@ -25,7 +25,7 @@ h2 {
 }
 
 .navbar img {
-  height: 50px;
+  height: 45px;
 }
 
 .bureau {
